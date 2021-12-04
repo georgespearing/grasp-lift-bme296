@@ -18,7 +18,7 @@ In the training set, there are two files for each subject + series combination:
 
 ## Script Information to Load Data
 
-To load the data files, you can use the [loadEEGData.py](loadEEGData.py) file. The function “loadData” will import the eeg data
+To load the data files, you can use the [loadEEGData.py](src/loadEEGData.py) file. The function “loadData” will import the eeg data
 and eeg channel names into a dictionary. The data can be loaded into a dictionary using the following code:
 
     Import loadEEGData as ld
