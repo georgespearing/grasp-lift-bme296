@@ -19,14 +19,14 @@ DEFAULT_DIRECTORY = '../train' # default relative location to the training data
 DEFAULT_SUBJECT = 1 # which subject to use, 1:12
 DEFAULT_SERIES = 1 # which series to use, 1:8
 
-# %% LOAD IN DATA
+#%% LOAD IN DATA
 
 data = eegdata.loadData(subject=DEFAULT_SUBJECT, series=DEFAULT_SERIES, data_directory=DEFAULT_DIRECTORY)
 
-# %% EPOCH THE DATA
+#%% EPOCH THE DATA
+
+#%% FILTER THE DATA
 
 #%% CLASSIFICATIONS
-
-#%% PREDICTIONS
 
 #%% RESULTS

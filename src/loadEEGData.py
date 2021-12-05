@@ -4,6 +4,8 @@
 Created on Wed Dec  1 14:43:03 2021
 
 @author: george
+
+# TODO: Add section to import the truth data from the subject
 """
 
 import numpy as np
@@ -37,6 +39,8 @@ def loadData(subject=1, series=1, data_directory='train'):
     # just the channel names
     channels = np.loadtxt(file_path, delimiter=',', usecols=(np.arange(1,33)), max_rows=1, dtype=str, unpack=True)
     
+    # Load in truth Data corresponding to EEG Events
+
     # turn it into a dictionary
     data = {}
     data['eeg'] = eegData
